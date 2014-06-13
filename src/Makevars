@@ -1,0 +1,4 @@
+PKG_CPPFLAGS+= -I"$(SECTOR_HOME)/include" -I"$(SECTOR_HOME)/udt"
+PKG_LIBS=-L"$(SECTOR_HOME)/lib" -lsecurity -lrpc -ludt -lcommon -lclient
+
+
